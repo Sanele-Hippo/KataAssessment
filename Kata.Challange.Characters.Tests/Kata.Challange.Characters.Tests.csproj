@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kata.Challange.Characters.Services\Kata.Challange.Characters.Services.csproj" />
+    <ProjectReference Include="..\Kata.Challange.CharactersApp\Kata.Challange.CharactersApp.csproj" />
   </ItemGroup>
 
   <ItemGroup>
