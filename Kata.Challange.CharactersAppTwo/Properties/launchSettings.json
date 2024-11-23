@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Kata.Challange.CharactersAppTwo": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
