@@ -19,7 +19,7 @@ namespace Kata.Challange.Characters.Services.Services
         /// </summary>
         /// <param name="characters"></param>
         /// <returns></returns>
-        Task WriteCharsAsync(List<char> characters);
+        Task WriteCharsAsync(IEnumerable<char> characters);
     }
     public class DestinationService(ICharacterProvider characterProvider) : IDestinationService
     {
@@ -28,7 +28,7 @@ namespace Kata.Challange.Characters.Services.Services
             await characterProvider.AddCharacterAsync(character);
         }
 
-        public async Task WriteCharsAsync(List<char> characters)
+        public async Task WriteCharsAsync(IEnumerable<char> characters)
         {
             await characterProvider.AddCharactersAsync(characters);
         }
